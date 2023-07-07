@@ -1,0 +1,100 @@
+/* global style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(128, 128, 83);
+  color: white;
+  font-family: "Karla", sans-serif;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: calc(1.3rem + 0.5vw);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: calc(0.8rem + 0.5vw);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: calc(1.15rem + 0.5vw);
+  font-weight: 700;
+}
+
+p {
+  font-size: calc(0.5rem + 0.5vw);
+  font-weight: 400;
+}
+
+span {
+  font-size: calc(0.3rem + 0.5vw);
+  opacity: 50%;
+  margin-left: 7px;
+}
+
+/* custom styles */
+.container {
+  width: 650px;
+}
+
+@media (max-width: 699px) {
+  .container {
+    width: 80%;
+  }
+}
+
+.join {
+  background-color: white;
+}
+
+.join h2 {
+  color: hsl(71, 73%, 54%);
+}
+
+.join p {
+  color: hsl(218, 22%, 67%);
+}
+
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 0;
+  color: white;
+}
+
+.btn:hover {
+  background-color: hsl(71, 84%, 39%);
+  border-radius: 0;
+  color: white;
+}
+
+.subscription {
+  background-color: hsl(179, 73%, 35%);
+}
+
+.why-us {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.why-us p {
+  margin-bottom: 2px;
+}
+
+/* attribution */
+.attribution {
+  background-color: white;
+  color: black;
+  font-size: 11px;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
